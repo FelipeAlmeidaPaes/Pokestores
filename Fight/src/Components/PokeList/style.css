@@ -1,0 +1,92 @@
+  #searchInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 40px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    outline: none;
+    background-image: url('../../Assets/search-icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    opacity: .7;
+    transition: .3s linear;
+  }
+  
+  #searchInput:focus {
+    opacity: 1;
+    transition: .3s linear;
+  }
+  
+  ul#pokelist {
+    display: grid;
+    grid-template-areas: 'a a a a a a';
+    grid-auto-rows: 208px;
+    grid-gap: 20px;
+    margin: 60px auto;
+    padding: 0;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+    padding: 2px;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    ul#pokelist {
+      grid-template-areas: 'a';
+      margin-bottom: 0;
+      max-height: 440px;
+    }
+  }
+  
+  @media only screen and (min-width: 481px) and (max-width: 600px) {
+    ul#pokelist {
+      grid-template-areas: 'a a';
+      margin-bottom: 0;
+      max-height: 440px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    ul#pokelist {
+      grid-template-areas: 'a a a';
+      margin-bottom: 0;
+      max-height: 440px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 900px) {
+    ul#pokelist {
+      grid-template-areas: 'a a a a';
+      margin-bottom: 0;
+      max-height: 440px;
+    }
+  }
+  
+  @media only screen and (min-width: 901px) and (max-width: 1024px) {
+    ul#pokelist {
+      grid-template-areas: 'a a a a';
+      margin-bottom: 0;
+      max-height: 440px;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    ul#pokelist {
+      grid-template-areas: 'a a a';
+      margin-bottom: 0;
+      max-height: calc(100vh - 80px)
+    }
+  }
+  
+  @media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    ul#pokelist {
+      grid-template-areas: 'a a a a';
+      margin-bottom: 0;
+      max-height: calc(100vh - 80px)
+    }
+  }

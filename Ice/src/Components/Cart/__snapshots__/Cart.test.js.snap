@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<ul
+  id="cartList"
+>
+  <li
+    id="title"
+  >
+    <h4>
+      CARRINHO
+    </h4>
+  </li>
+  <li>
+    <img
+      alt="poke img"
+      className="pokeImage"
+      src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+    />
+    <p
+      className="pokeInfo"
+    >
+      <span
+        className="pokeQuantity"
+      >
+        1
+         x
+      </span>
+      <span
+        className="pokeName"
+      >
+        cloyster
+      </span>
+      <span
+        className="pokePrice"
+      >
+        131
+        ,00
+      </span>
+    </p>
+  </li>
+  <li>
+    <img
+      alt="poke img"
+      className="pokeImage"
+      src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
+    />
+    <p
+      className="pokeInfo"
+    >
+      <span
+        className="pokeQuantity"
+      >
+        2
+         x
+      </span>
+      <span
+        className="pokeName"
+      >
+        dewgong
+      </span>
+      <span
+        className="pokePrice"
+      >
+        250
+        ,00
+      </span>
+    </p>
+  </li>
+  <li
+    id="total"
+  >
+    <span>
+      Total: 
+    </span>
+    <span>
+      R$ 
+      381.00
+    </span>
+  </li>
+  <li
+    id="buyButton"
+  >
+    <button
+      disabled={false}
+      onClick={[Function]}
+    >
+      Finalizar
+    </button>
+  </li>
+</ul>
+`;

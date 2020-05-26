@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<li
+  className="poke"
+>
+  <img
+    alt="pokemon.img"
+    className="image"
+    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+  />
+  <p
+    className="name"
+  >
+    cloyster
+  </p>
+  <p
+    className="price"
+  >
+    <b>
+      R$ 
+      131,00
+    </b>
+  </p>
+  <div
+    className="form-control"
+  >
+    <label>
+      qtd:
+    </label>
+    <select
+      className="select__quantity"
+      onChange={[Function]}
+    >
+      <option
+        value={1}
+      >
+        1
+      </option>
+      <option
+        value={2}
+      >
+        2
+      </option>
+      <option
+        value={3}
+      >
+        3
+      </option>
+      <option
+        value={4}
+      >
+        4
+      </option>
+      <option
+        value={5}
+      >
+        5
+      </option>
+      <option
+        value={6}
+      >
+        6
+      </option>
+    </select>
+  </div>
+  <button
+    className="addCartButton"
+    onClick={[Function]}
+  >
+    Adicionar
+  </button>
+  <span
+    className="tooltip-text"
+  >
+    habilidades: 
+    shell-armor, overcoat
+  </span>
+</li>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should renders correctly 1`] = `
+<div
+  className="home"
+  id="home"
+>
+  <input
+    id="searchInput"
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+  <ul
+    id="pokelist"
+  />
+  <ul
+    id="cartList"
+  >
+    <li
+      id="title"
+    >
+      <h4>
+        CARRINHO
+      </h4>
+    </li>
+    <li
+      id="total"
+    >
+      <span>
+        Total: 
+      </span>
+      <span>
+        R$ 
+        0.00
+      </span>
+    </li>
+    <li
+      id="buyButton"
+    >
+      <button
+        disabled={true}
+        onClick={[Function]}
+      >
+        Finalizar
+      </button>
+    </li>
+  </ul>
+</div>
+`;

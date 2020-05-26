@@ -1,0 +1,183 @@
+  #cartList {
+    margin: 60px auto;
+    padding: 0;
+    list-style: none;
+    min-width: 70%;
+    background: #f3f3f3;
+    ;
+    height: fit-content;
+    max-height: calc(100vh - 80px);
+    overflow-y: scroll;
+    box-shadow: 0px 0px 5px #505050;
+  }
+  
+  #title h4 {
+    margin: 0;
+    padding: 15px;
+  }
+  
+  #cartList li {
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 0;
+  }
+  
+  .pokeInfo {
+    width: 100%;
+  }
+  
+  .pokeImage {
+    width: 40px;
+  }
+  
+  .pokeQuantity {
+    float: left;
+    padding: 0 10px;
+  }
+  
+  .pokeName {
+    clear: both;
+  }
+  
+  .pokeName:first-letter {
+    text-transform: uppercase;
+  }
+  
+  .pokePrice {
+    float: right;
+  }
+  
+  #total {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 5px !important;
+  }
+  
+  #buyButton {
+    padding: 0 !important;
+    border: none;
+    margin: 4px auto;
+    width: 80%;
+  }
+  
+  #buyButton button {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to bottom, #4eb5e5 0%, #389ed5 100%);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    border-bottom: 4px solid #2b8bc6;
+    color: #fbfbfb;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+    font-size: 15px;
+    text-align: left;
+    text-indent: 5px;
+    cursor: pointer;
+  }
+  
+  #buyButton button:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 20px solid #187dbc;
+    border-bottom: 20px solid #187dbc;
+    border-left: 16px solid transparent;
+    border-right: 20px solid #187dbc;
+    position: absolute;
+    opacity: 0.6;
+    right: 0;
+    top: 0;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #buyButton button:disabled {
+    filter: grayscale(100%);
+    cursor: initial;
+  }
+  
+  #closeModal {
+    height: 15px;
+    width: 15px;
+    box-sizing: border-box;
+    line-height: 10px;
+    display: inline-block;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    outline: none;
+  }
+  
+  #closeModal:after,
+  #closeModal:before {
+    transform: rotate(-45deg);
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1px;
+    margin-left: -5px;
+    display: block;
+    height: 2px;
+    width: 10px;
+    background-color: #000;
+    transition: all 0.25s ease-out;
+  }
+  
+  #closeModal:after {
+    transform: rotate(-135deg);
+  }
+  
+  #closeModal:hover:before,
+  #closeModal:hover:after {
+    transform: rotate(0deg);
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    #cartList {
+      margin: 20px 0 0 0;
+      max-height: 400px;
+    }
+  }
+  
+  @media only screen and (min-width: 481px) and (max-width: 600px) {
+    #cartList {
+      margin: 20px 0 0 0;
+      max-height: 400px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    #cartList {
+      margin: 20px 0 0 0;
+      max-height: 400px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 900px) {
+    #cartList {
+      margin: 20px 0 0 0;
+      max-height: 400px;
+    }
+  }
+  
+  @media only screen and (min-width: 901px) and (max-width: 1024px) {
+    #cartList {
+      margin: 20px 0 0 0;
+      max-height: 400px;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    #cartList {
+      margin: 60px 0;
+      max-height: calc(100vh - 80px);
+      max-width: 90%;
+    }
+  }
